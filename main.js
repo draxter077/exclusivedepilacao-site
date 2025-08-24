@@ -175,16 +175,22 @@ cE("root", `html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquo
     blockquote, q {quotes: none;}
     blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
     table {border-collapse: collapse;border-spacing: 0;}
+    @font-face{
+        font-family:"Agrandir";
+        src:url("./assets/Agrandir-Regular.otf");
+    }
     :root{
     	--colorWhite:rgb(255, 255, 255);
     	--colorBlack:rgb(0, 0, 0);
+        --colorOrange:rgb(227, 124, 22);
+        --colorBlue:rgb(53, 91, 156);
     	--transitionTime:0.5s;
     	--animationDelay0:0s;
     }
     body{
     	box-sizing:border-box;
-    	font-family:system-ui;
-    	background:var(--colorBlack);
+    	font-family:"Agrandir";
+    	background:var(--colorWhite);
     	cursor:default;
 	    user-select:none;
     }
