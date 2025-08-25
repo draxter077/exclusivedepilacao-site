@@ -4,7 +4,7 @@ import links from "./links/main.js"
 export default function head(){
     let style = `
         {
-            position:fixed;
+            position:sticky;
             top:0%;
             left:0%;
 
@@ -16,16 +16,7 @@ export default function head(){
             padding:10px;
             background:var(--colorWhite);
             z-index:1;
-            transform:translateY(-100%);
-
-            animation:downing 1s linear 0s 1 forwards;
-            animation-timeline:scroll();
-            animation-range-start:50svh;
-            animation-range-end:100svh;
-        }
-        @keyframes downing{
-            0%[transform:translateY(-100%)]
-            100%[transform:translateY(0%)]
+            box-shadow:0px 0px 2px 0px var(--colorOrange);
         }
         :responsive{
             flex-direction:column;

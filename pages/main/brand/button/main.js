@@ -5,8 +5,8 @@ export default function button(){
             background:var(--colorWhite);
             color:var(--colorBlue);
             padding:10px 20px 7px;
+            margin:20px 0px 0px 0px;
             border-radius:50px;
-            box-shadow:0px 0px 10px 0px var(--colorOrange);
             transition:transform 0.5s;
         }
         :hover{

@@ -3,7 +3,7 @@ export default function slogan(){
         {
             font-size:35px;
             color:var(--colorWhite);
-            text-shadow:0px 0px 30px var(--colorOrange);
+            margin:0px 0px 20px 0px;
             text-align:center;
             max-width:90%;
         }
