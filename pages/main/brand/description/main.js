@@ -11,6 +11,6 @@ export default function description(){
         }`
 
     const description = cE("div", style)
-    description.innerHTML = "Qualidade dos serviços. Equipe profissional. Ambiente agradável. Preço justo. Compromisso e profissionalismo."
+    description.innerHTML = "Qualidade dos serviços. Equipe profissional. Ambiente agradável. Compromisso e profissionalismo."
     return(description)
 }
