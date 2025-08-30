@@ -1,6 +1,6 @@
 import title from "./title/main.js"
 import options from "./options/main.js"
-import photos from "./photos/main.js"
+import carroussel from "./carroussel/main.js"
 
 export default function services(){
     let style = `
@@ -16,6 +16,6 @@ export default function services(){
     services.id = "Serviços"
     services.appendChild(title())
     services.appendChild(options())
-    services.appendChild(photos())
+    services.appendChild(carroussel())
     return(services)
 }
