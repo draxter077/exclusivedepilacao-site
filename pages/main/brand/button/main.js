@@ -7,6 +7,7 @@ export default function button(){
             padding:10px 20px 7px;
             margin:20px 0px 0px 0px;
             border-radius:50px;
+            cursor:pointer;
             transition:transform 0.5s;
         }
         :hover{
@@ -16,7 +17,9 @@ export default function button(){
             font-size:20px;
         }`
 
-    const button = cE("button", style)
+    const button = cE("a", style)
     button.innerHTML = "Faça seu agendamento agora"
+    button.href = "https://agendamento.avec.beauty/?slug=exclusivedepilacao#/app/widget/exclusivedepilacao"
+    button.target = "_blank"
     return(button)
 }

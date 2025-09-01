@@ -1,6 +1,7 @@
 import slogan from "./slogan/main.js"
 import description from "./description/main.js"
 import button from "./button/main.js"
+import whatsapp from "./whatsapp/main.js"
 import carrouseel from "./carroussel/main.js"
 
 export default function brand(){
@@ -20,6 +21,7 @@ export default function brand(){
     brand.appendChild(slogan())
     brand.appendChild(description())
     brand.appendChild(button())
+    brand.appendChild(whatsapp())
     brand.appendChild(carrouseel())
     return(brand)
 }

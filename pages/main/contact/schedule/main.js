@@ -7,6 +7,7 @@ export default function schedule(){
             padding:10px 20px 7px;
             border-radius:20px;
             box-shadow:0px 0px 3px 0px var(--colorBlue);
+            cursor:pointer;
             transition:transform 0.5s;
         }
         :hover{
@@ -16,7 +17,9 @@ export default function schedule(){
             font-size:18px;
         }`
 
-    const schedule = cE("button", style)
-    schedule.innerHTML = "Faça seu agendamento agora mesmo"
+    const schedule = cE("a", style)
+    schedule.innerHTML = "Faça seu agendamento agora"
+    schedule.href = "https://agendamento.avec.beauty/?slug=exclusivedepilacao#/app/widget/exclusivedepilacao"
+    schedule.target = "_blank"
     return(schedule)
 }
