@@ -5,7 +5,7 @@ export default function button(){
             background:var(--colorWhite);
             color:var(--colorBlue);
             padding:10px 20px 7px;
-            margin:20px 0px 0px 0px;
+            margin:5vh 0px 0px 0px;
             border-radius:50px;
             cursor:pointer;
             transition:transform 0.5s;
